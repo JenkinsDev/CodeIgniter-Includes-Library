@@ -16,18 +16,22 @@ It is extremely easy to get started with this tiny library.  It takes literally 
 3.) Set your variable/properties for file names and file data as arrays or string(s):
 
 > // Files To Include
+>
 > $this->files_include = array('includes/header', 'home', 'includes/footer');
 >
 > // File Data
+>
 > $this->data['includes/header']['title'] = 'Welcome Home';
 > $this->data['home']['test'] = 'This is a test';
 >
 > OR
 >
 > // Files To Include
+>
 > $this->files_includes = 'home';
 >
 > // File Data
+>
 > $this->data['title'] = 'Welcome Home';
 
 4.) Finally call the includes::include_files() method:
